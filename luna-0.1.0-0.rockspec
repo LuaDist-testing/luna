@@ -1,5 +1,7 @@
+-- This file was automatically generated for the LuaDist project.
+
 package = "luna"
-version = "0.0.2-0"
+version = "0.1.0-0"
 
 description = {
   summary = "luna api builder",
@@ -7,10 +9,16 @@ description = {
   license = "MIT",
 }
 
+-- LuaDist source
 source = {
-  url = "git+https://github.com/fnordpipe/luna.git",
-  tag = "v0.0.2",
+  tag = "0.1.0-0",
+  url = "git://github.com/LuaDist-testing/luna.git"
 }
+-- Original source
+-- source = {
+--   url = "git+https://github.com/fnordpipe/luna.git",
+--   tag = "v0.1.0",
+-- }
 
 dependencies = {
   "lapis 1.6.0",
